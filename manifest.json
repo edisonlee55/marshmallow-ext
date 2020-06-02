@@ -1,0 +1,19 @@
+{
+  "name": "Marshmallow Downloader",
+  "version": "1.0",
+  "description": "Mass download marshmallow-qa.com images",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "permissions": [
+    "tabs",
+    "contextMenus",
+    "https://marshmallow-qa.com/*",
+    "downloads"
+  ],
+  "icons": {
+    "16": "favicon.png"
+  },
+  "manifest_version": 2
+}
