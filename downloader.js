@@ -1,5 +1,5 @@
 let downloadLinkElements = document.getElementsByClassName("text-extra-muted");
-let regex = /https:\/\/cdn\.marshmallow-qa\.com\/system\/images\/[a-z0-9\-]+\.png/g;
+let regex = /https:\/\/media\.marshmallow-qa\.com\/system\/images\/[a-z0-9\-]+\.png/g;
 let result = [];
 for (let element of downloadLinkElements) {
   let link = element.getAttribute("href");
